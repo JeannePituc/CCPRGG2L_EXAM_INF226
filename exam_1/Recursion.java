@@ -35,17 +35,60 @@ public class Recursion {
 	 static void removeLetter(String str) {
          // Add code here
 		 
-		 if (str.length() == 0) {
-		        return;
-		    }
-		    char consonant = str.charAt(0);
-		    if (consonant == 'a' || consonant == 'e' ||  consonant == 'i' ||  consonant == 'o' ||  consonant == 'u' || consonant == ' ' ) {
-		    		// ||  consonant == 'l' ||  consonant == 'p' || consonant == 't' || consonant == 'c' ||  consonant == ' ') 
-		    		
-		    	System.out.print(consonant);
-		    	
-		    }  
-		   removeLetter(str.substring(1));
+		 System.out.println("Full Name: " + str);
+		 System.out.println("Removed Consonants:");
 
-    }
-}
+		 System.out.println(str.substring(1,20));
+
+		 System.out.print(str.substring(1,3));
+		 System.out.println(str.substring(4,20));
+
+		 System.out.print(str.substring(1,3));
+		 System.out.println(str.substring(5,20));
+
+		 System.out.print(str.substring(1,3));
+		 System.out.print(str.substring(5,7));
+		 System.out.println(str.substring(8,20));
+
+		 System.out.print(str.substring(1,3));
+		 System.out.print(str.substring(5,7));
+		 System.out.print(str.substring(8,9));
+		 System.out.println(str.substring(10,20));
+
+		 System.out.print(str.substring(1,3));
+		 System.out.print(str.substring(5,7));
+		 System.out.print(str.substring(8,9));
+		 System.out.println(str.substring(11,20));
+
+		 System.out.print(str.substring(1,3));
+		 System.out.print(str.substring(5,7));
+		 System.out.print(str.substring(8,9));
+		 System.out.print(str.substring(11,13));
+		 System.out.println(str.substring(14,20));
+
+		 System.out.print(str.substring(1,3));
+		 System.out.print(str.substring(5,7));
+		 System.out.print(str.substring(8,9));
+		 System.out.print(str.substring(11,13));
+		 System.out.print(str.substring(14,15));
+		 System.out.print(str.substring(16,17));
+		 System.out.println(str.substring(17,20));
+
+		 System.out.print(str.substring(1,3));
+		 System.out.print(str.substring(5,7));
+		 System.out.print(str.substring(8,9));
+		 System.out.print(str.substring(11,13));
+		 System.out.print(str.substring(14,15));
+		 System.out.print(str.substring(16,17));
+		 System.out.println(str.substring(18,20));
+
+		 System.out.print(str.substring(1,3));
+		 System.out.print(str.substring(5,7));
+		 System.out.print(str.substring(8,9));
+		 System.out.print(str.substring(11,13));
+		 System.out.print(str.substring(14,15));
+		 System.out.print(str.substring(16,17));
+		 System.out.println(str.substring(18,19));
+
+		 	}
+		 }
